@@ -1,0 +1,10 @@
+tasks.register('hello') {
+    doLast {
+        println 'Hello world!'
+    }
+}
+
+dependencies {
+    compile 'org.apache.commons:commons-csv:+'
+    testImplementation 'junit:junit:4.12'
+}
